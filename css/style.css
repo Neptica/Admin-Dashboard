@@ -247,13 +247,17 @@
   padding: 20px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px;
+}
+
+.announcements div:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .acard {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 5px 0;
 }
 
 .acard h3 {
